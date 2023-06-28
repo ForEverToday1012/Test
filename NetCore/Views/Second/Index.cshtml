@@ -1,0 +1,10 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Index</h1>
+
+<h1>@base.Context.Session.GetString("Test")</h1> 
+

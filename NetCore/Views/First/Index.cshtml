@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Index</h1>
+
+<h1>@base.Context.Session.GetString("Test")</h1>
+<h1>@ViewBag.cache</h1>
+<h1>@ViewBag.DateTime</h1>
+
